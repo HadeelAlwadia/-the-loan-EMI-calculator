@@ -1,54 +1,22 @@
-# React + TypeScript + Vite
+# Loan EMI Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+The Loan EMI Calculator is a web application built with React and styled using TailwindCSS. It allows users to calculate the **Equated Monthly Installment (EMI)** for a loan by inputting the loan amount, interest rate, and loan tenure. The application provides an easy-to-use and interactive interface for users to discover their monthly EMI payments.
 
-Currently, two official plugins are available:
+## Features
+- **Loan EMI Calculation**: Calculate your monthly EMI based on the loan amount, interest rate, and tenure.
+- **Responsive Design**: The app is designed to be responsive, providing a smooth experience across devices.
+- **Clean User Interface**: Built with React and styled with TailwindCSS for a clean, modern look.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Use
+1. **Enter Loan Amount**: Input the total loan amount.
+2. **Enter Interest Rate**: Input the annual interest rate (in percentage).
+3. **Enter Loan Term**: Input the loan tenure in years.
+4. **Click "Discover EMI"**: The calculated monthly EMI will be displayed.
 
-## Expanding the ESLint configuration
+## Installation
+To run the project locally, follow these steps:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/loan-emi-calculator.git
