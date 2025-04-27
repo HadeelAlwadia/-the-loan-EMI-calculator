@@ -13,6 +13,8 @@ The Loan EMI Calculator is a web application built with React and styled using T
 2. **Enter Interest Rate**: Input the annual interest rate (in percentage).
 3. **Enter Loan Term**: Input the loan tenure in years.
 4. **Click "Discover EMI"**: The calculated monthly EMI will be displayed.
+## Live Demo
+You can try out the Loan EMI Calculator live at [Loan EMI Calculator](https://lonscalculator.netlify.app/).
 
 ## Installation
 To run the project locally, follow these steps:
